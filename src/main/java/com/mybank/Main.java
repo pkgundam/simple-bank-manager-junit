@@ -7,6 +7,9 @@ import java.nio.file.Path;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Main class providing a console-based UI for the banking system.
+ */
 public class Main {
     private static final Path CSV_FILE = Path.of("accounts.csv");
 
